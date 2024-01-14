@@ -1,12 +1,4 @@
-//
-// THIS APPLICATION WAS DEVELOPED BY IURII DOLOTOV
-//
-// IF YOU HAVE ANY QUESTIONS PLEASE DO NOT TO HESITATE TO CONTACT ME VIA MARKETPLACE OR EMAIL: utilityman.development@gmail.com
-//
-// THE AUTHOR REMAINS ALL RIGHTS TO THE PROJECT
-//
-// THE ILLEGAL DISTRIBUTION IS PROHIBITED
-//
+
 
 import QuickTableViewController
 import MessageUI
@@ -50,11 +42,11 @@ final class SettingsViewController: QuickTableViewController {
                 }),
             ]),
             
-//            Section(title: "Do you like the app?", rows: [
-//                NavigationRow(text: "Rate the app", detailText: .none, icon: .named("rate-image"), action: { [self] _ in
-//                    rateApp()
-//                }),
-//            ]),
+            Section(title: "Do you like the app?", rows: [
+                NavigationRow(text: "Rate the app", detailText: .none, icon: .named("rate-image"), action: { [self] _ in
+                    rateApp()
+                }),
+            ]),
             
             Section(title: "Do you have any questions?", rows: [
                 NavigationRow(text: "Contact us", detailText: .none, icon: .named("contact"), action: { [self] _ in

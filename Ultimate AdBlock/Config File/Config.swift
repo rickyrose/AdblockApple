@@ -1,30 +1,22 @@
-//
-// THIS APPLICATION WAS DEVELOPED BY IURII DOLOTOV
-//
-// IF YOU HAVE ANY QUESTIONS PLEASE DO NOT TO HESITATE TO CONTACT ME VIA MARKETPLACE OR EMAIL: utilityman.development@gmail.com
-//
-// THE AUTHOR REMAINS ALL RIGHTS TO THE PROJECT
-//
-// THE ILLEGAL DISTRIBUTION IS PROHIBITED
-//
+
 
 import UIKit
 import Foundation
 
 //---GOOGLE ADMOB, ONESIGNAL AND REVENUE CAT IDS---//
 
-var oneSignalAppId = "22d6aa6a-e0ac-48d2-8feb-58419b0c36f8"
-var revenueCatApiKey = "feDzfeRYHwWdrwUCqBJAiQzMeiIqKGSn"
+var oneSignalAppId = ""
+var revenueCatApiKey = ""
 
 //---GOOGLE ADMOB, ONESIGNAL AND REVENUE CAT IDS END---//
 
 
 //---COMMON CONFIGURATION---//
 
-var contactEmail = "utilityman.development@gmail.com"
-var facebookUrl = "https://www.facebook.com/ydolotov/"
-var instagramUrl = "https://www.instagram.com/yura_d/"
-var linkedInUrl = "https://www.linkedin.com/in/iurii-dolotov-7751a5189/"
+var contactEmail = ""
+var facebookUrl = ""
+var instagramUrl = ""
+var linkedInUrl = ""
 
 var privacyPolicyUrl = "https://probel-spaces-for-instagram.jimdosite.com/privacy/"
 var termsOfUseUrl = "https://probel-spaces-for-instagram.jimdosite.com"

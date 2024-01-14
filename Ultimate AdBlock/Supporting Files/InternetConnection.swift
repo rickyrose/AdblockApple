@@ -1,12 +1,4 @@
-//
-// THIS APPLICATION WAS DEVELOPED BY IURII DOLOTOV
-//
-// IF YOU HAVE ANY QUESTIONS PLEASE DO NOT TO HESITATE TO CONTACT ME VIA MARKETPLACE OR EMAIL: utilityman.development@gmail.com
-//
-// THE AUTHOR REMAINS ALL RIGHTS TO THE PROJECT
-//
-// THE ILLEGAL DISTRIBUTION IS PROHIBITED
-//
+
 
 import SystemConfiguration
 
@@ -29,12 +21,12 @@ public class Reachability {
             return false
         }
         
-        /* Only Working for WIFI
-         let isReachable = flags == .reachable
-         let needsConnection = flags == .connectionRequired
-         
-         return isReachable && !needsConnection
-         */
+        Only Working for WIFI
+        let isReachable = flags == .reachable
+        let needsConnection = flags == .connectionRequired
+        
+        return isReachable && !needsConnection
+        
         
         // Working for Cellular and WIFI
         let isReachable = (flags.rawValue & UInt32(kSCNetworkFlagsReachable)) != 0

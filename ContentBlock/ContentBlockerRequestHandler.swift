@@ -1,9 +1,4 @@
-//
-//  ContentBlockerRequestHandler.swift
-//  ContentBlock
-//
-//  Created by Iurii Dolotov on 21.04.2021.
-//
+
 
 import UIKit
 import Purchases
